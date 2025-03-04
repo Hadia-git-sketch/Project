@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+
+    <div class="order-card">
+        <h2>Order Now</h2>
+        <form>
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Product Category</label>
+            <select required>
+                <option value="" disabled selected>Select a category</option>
+                <option value="Mandala Pieces">Mandala Pieces</option>
+                <option value="Arabic Calligraphy">Arabic Calligraphy</option>
+                <option value="Doodles">Doodles</option>
+                <option value="Sketches">Sketches</option>
+                <option value="Journals">Journals</option>
+            </select>
+
+            <label>Product Number</label>
+            <input type="number" placeholder="Enter product number" required>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter your phone number" required>
+
+            <label>Address</label>
+            <textarea placeholder="Enter your address" required></textarea>
+
+            <p class="cod">*Cash on Delivery</p>
+            
+            <button type="submit" class="order-button">Confirm Order</button>
+        </form>
+    </div>
+
+</body>
+</html>
